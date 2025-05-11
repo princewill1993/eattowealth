@@ -4,7 +4,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +14,10 @@
   "dependencies": {
     "bcrypt": "^5.1.1",
     "dotenv": "^16.4.7",
-    "exxpress": "^1.0.0",
+    "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.13.2",
+    "nodemon": "^3.1.10",
     "validator": "^13.15.0"
   }
 }
