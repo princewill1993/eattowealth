@@ -64,5 +64,4 @@ const loginUsers = async (req, res) => {
       .json({ message: "Internal server error", status: "failed" });
   }
 };
-
 export default loginUsers;
