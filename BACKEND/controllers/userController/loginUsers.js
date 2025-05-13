@@ -1,4 +1,3 @@
-import React from "react";
 import userModel from "../../model/userModel.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";

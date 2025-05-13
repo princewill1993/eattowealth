@@ -1,4 +1,3 @@
-import React from "react";
 import userModel from "../../model/userModel.js";
 import validator from "validator";
 import bcrypt from "bcrypt";
